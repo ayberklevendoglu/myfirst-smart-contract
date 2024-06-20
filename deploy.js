@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const HDWalletProvider = require("@truffle/hdwallet-provider");
 const { Web3 } = require("web3");
 const { interface, bytecode } = require("./compile");
@@ -24,3 +25,10 @@ const deploy = async () => {
   provider.engine.stop();
 };
 deploy();
+=======
+const HDWalletProvider = require('@truffle/hdwallet-provider');
+const { Web3 } = require('web3');
+//updated web3 and hdwallet-provider imports added for convenience
+
+// deploy code will go here
+>>>>>>> 62e0c5f77def1ecf8a6920d7d3b22f5590063953
